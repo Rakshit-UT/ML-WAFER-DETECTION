@@ -1,0 +1,38 @@
+{
+  "model_name": "SemiDefectClassifier",
+  "version": "1.0",
+  "input_size": [
+    1,
+    1,
+    128,
+    128
+  ],
+  "input_format": "NCHW",
+  "input_type": "uint8",
+  "output_type": "uint8",
+  "num_classes": 12,
+  "classes": [
+    "bridge",
+    "center",
+    "clean",
+    "donut",
+    "edge",
+    "line_break",
+    "line_collapse",
+    "other",
+    "pcb_defect",
+    "random",
+    "scratch",
+    "surface_defect"
+  ],
+  "preprocessing": {
+    "resize": [
+      128,
+      128
+    ],
+    "color_mode": "grayscale",
+    "normalize": "0-255 to uint8"
+  },
+  "target_platform": "NXP i.MX RT / eIQ",
+  "accuracy": "96.19%"
+}
