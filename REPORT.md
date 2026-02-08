@@ -1,10 +1,5 @@
-# IESA Edge-AI Hackathon Submission
 ## Semiconductor Defect Classification for Edge Deployment
-
----
-
 ## Executive Summary
-
 | Metric | Target | Achieved |
 |--------|--------|----------|
 | **Test Accuracy** | >90% | **96.19%** ✅ |
@@ -14,9 +9,7 @@
 | **Parameters** | - | **1,529,868** |
 | **Input** | Grayscale | **128×128×1** ✅ |
 | **Edge Ready** | Yes | **ONNX for NXP eIQ** ✅ |
-
 ---
-
 ## 1. Dataset
 
 ### Sources (5 Public Datasets Combined)
@@ -247,8 +240,3 @@ Successfully developed an edge-deployable semiconductor defect classifier:
 - **ONNX export** ready for NXP eIQ integration
 - Combined 5 public datasets (868K+ source images)
 
-**The model exceeds all IESA hackathon requirements and is ready for edge deployment.**
-
----
-
-*Generated: 2026-02-08*
